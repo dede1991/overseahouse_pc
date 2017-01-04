@@ -771,3 +771,7 @@ margin:25px 0;
 		font-size: 18px;
 	}
 }
+
+@media only screen and (max-width:996px ) {
+	margin:8px 0;
+}
