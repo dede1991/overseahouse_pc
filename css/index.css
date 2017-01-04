@@ -341,14 +341,18 @@ margin:25px 0;
     font-size: 0;
 }
 .activity .carousel-indicators.album-list li{
-    width:32%;
+    width:33.33%;
     margin:0;
 }
 .activity .carousel-indicators.album-list li.active{
-    width:32%;
+    width:33.33%;
+}
+.activity .carousel-indicators.album-list li img{
+   min-width: initial;
+   width: 100%;
 }
 .activity .carousel-indicators.album-list li.first{
-    margin-left:32%;
+    margin-left:33.33%;
 }
 .activity .carousel-indicators.album-list li.last{
     position:absolute;
