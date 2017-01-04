@@ -1,0 +1,78 @@
+body{
+	background: #fff;
+}
+.content{
+	background: #fff;
+}
+.container{
+	background-color:#f5f6fb;
+}
+.info{
+	margin: 0 auto;
+    height: auto;
+}
+.info1{
+	width:1184px;
+	height: auto;
+	padding-top: 23px;
+	padding-bottom: 33px;
+	padding-left: 1.6%;
+	margin: 0 auto;
+	border-bottom: 1px solid #eeeeee;
+}
+.infotxt{
+	width:46%;
+	margin-top:55px;
+	margin-left: 2.1%;
+}
+.infotxt h3{
+	font-size: 16px;
+	color: #535353;
+	margin-bottom: 7px;
+}
+.infotxt time{
+	color: #535353;
+	
+}
+.infotxt p{
+	margin-top:21px;
+	font-size: 13px;
+	color: #a0a0a0;
+}
+.sb{
+	
+	font-size: 13px;
+	margin-top:89px;
+	margin-left: 43px;
+	display: none;
+}
+.sb a{
+	text-decoration: none;
+	color: #fff;
+}
+.info1:hover{
+	background: #6c6c6c;
+}
+.info1:hover h3{
+	color: #c2a66d;
+}
+.info1:hover time{
+	color: #fff;
+}
+.info1:hover p{
+	color: #fff;
+}
+.info1:hover .sb{
+	display: block;
+}
+.yema{
+	margin-top: 76px;
+	margin-bottom:159px;
+	text-align: center;
+}
+.yema a{
+	padding:14px 18px;
+	background: #6c6c6c;
+	color: #fff;
+	text-decoration: none;
+}

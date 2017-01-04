@@ -1,0 +1,107 @@
+.container{
+	background-color:#f5f6fb;
+}
+.content{
+	margin: 0 auto;
+    height: auto;
+    width: 1160px;
+}
+.peiyang dt{
+	font-size: 16px;
+	color: #535353;
+	font-weight: bold;
+	margin-bottom: 24px;
+}
+.peiyang dd{
+	color: #535353;
+	line-height: 30px;
+	margin-left: 0.6%;
+}
+.peiyang dl:first-of-type{
+	padding-bottom:30px;
+	border-bottom: 1px solid #eeeeee;
+}
+.peiyang dl:nth-of-type(2){
+	padding-top: 20px;
+}
+.peiyang dl:last-of-type{
+	padding-top: 39px;
+	padding-bottom: 60px;
+	border-bottom: 1px solid #eeeeee;
+	font-size: 13px;
+}
+.fanwei{
+	padding-top: 40px;
+	padding-bottom: 60px;
+	border-bottom: 1px solid #eeeeee;
+}
+.fanwei h5{
+	color: #535353;
+	font-size: 16px;
+	margin-bottom: 40px;
+}
+.table{
+	margin: 0 auto;
+	width: 888px;
+	color: #535353;
+	text-align: center;
+	border-color:;
+}
+.table th{
+	height: 70px;
+	font-size: 16px;
+	font-weight: normal;
+}
+.table tr{
+	height: 46px;
+}
+.table tr td:first-child{
+	font-size: 16px;
+}
+.table tr td:nth-of-type(3){
+	font-size: 13px;
+	line-height: 30px;
+	padding-right:3.3%;
+	padding-left: 10%;
+	color: #535353;
+	text-align: justify;
+}
+.table th:first-of-type{
+	width: 20.7%;
+}
+.table th:nth-of-type(2){
+	width: 29.16%;
+}
+.moshi{
+	padding:40px 0 49px 0;
+	border-bottom: 1px solid #eeeeee;
+	color:#535353;
+}
+.moshi h5{
+	font-size: 16px;
+	margin-bottom: 30px;
+}
+.moshi p{
+	line-height: 30px;
+	font-size: 13px;
+	margin-left:0.6%;
+}
+.hezuo{
+	padding:40px 0 160px 0;
+	color: #535353;
+}
+.hezuo h5{
+	font-size: 16px;
+	margin-bottom: 30px;
+}
+.hezuo dt,.hezuo dd{
+	font-size: 13px;
+	margin-left:0.3%;
+	line-height: 30px;
+}
+.img{
+	width: 1098px;
+	margin: 0 auto;
+	padding-top:48px;
+	padding-bottom: 50px;
+}

@@ -1,0 +1,769 @@
+/*通用样式*/
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	overflow-x: hidden;
+	font-family:"微软雅黑";
+	font-size:14px;
+}
+
+img{
+	max-width:100%;
+	height:auto;
+}
+a{
+	color:black;
+	text-decoration: none;
+	
+}
+a:hover{
+	
+	text-decoration: none;
+	
+}
+
+.container{
+	min-width: 760px;
+}
+
+/*广告*/
+.banner{
+	position:relative;
+}
+#banner-carousel .carousel-control{
+	width: 76px;
+    height: 76px;
+    line-height: 76px;
+    top: 50%;
+    background-color:black;
+    opacity: .5;
+    filter: alpha(opacity=80);
+    
+}
+#banner-carousel .carousel-control.left{
+	margin-left: 3.6%;
+}
+#banner-carousel .carousel-control.right{
+	margin-right: 3.6%;
+}
+#banner-carousel .carousel-control:hover{
+	 opacity: .8;
+    filter: alpha(opacity=80);
+}
+.banner .text{
+	position:absolute;
+	top:50%;
+	left: 50%;
+	width:758px;
+	transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+	-moz-transform: translate(-50%,-50%);
+	-webkit-transform: translate(-50%,-50%);
+	-o-transform: translate(-50%,-50%);
+	font-family: Arial;
+	font-size:48px;
+	color:white;
+}
+.banner .text p{
+	text-align: center;
+}
+.banner .text p.cn{
+	 font-family: "微软雅黑";
+	font-size:18px;
+}
+/*主体内容*/
+.main{
+	padding:3.3% 0 7.7%;
+	background-color: #f5f6fb;
+}
+.main .container{
+	width:1160px;
+	margin:0 auto;
+	
+}
+/*.media*/
+.media{
+	position:relative;
+	margin-bottom:10.7%;
+}
+.media:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.media .img-slider{
+	position: relative;
+	width:61.7%;
+	box-sizing: border-box;
+	z-index: 1;
+}
+.media .img-slider .carousel-control{
+    top:auto;
+    bottom:auto;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background:#707070;
+    opacity: 1;
+    z-index: 500px;
+}
+.media .img-slider .carousel-control:hover{
+    background:#535353;
+   
+}
+
+.media .img-slider .carousel-control.top{
+        left: 0;
+        top: auto;
+        bottom:0;
+}
+.media .img-slider .carousel-control.bottom{
+        left: 0;
+        bottom:-40px;
+}
+.media .information{
+	width:38.3%;
+	box-sizing: border-box;
+	background-color:white;
+	background-repeat: no-repeat;
+}
+.media .information .description{
+	line-height: 25px;
+}
+.media .information .button{
+	margin-top:50px ;
+}
+.media .information .carousel-control{
+	display: none;
+}
+.media .information .heading{
+	font-size: 26px;
+	font-family: Arial;
+	line-height: 32px;
+}
+
+ .line{
+	width:33px ;
+	display:inline-block;
+	border-top:3px solid black;
+	line-height: 85px;
+}
+
+.media .line{
+margin:25px 0;
+}
+
+ 
+.sub-logo{
+	position:absolute;
+	left: -54px;
+    top: -45px;
+}
+.sub-logo ul{
+	margin-top: 15px;
+}
+.sub-logo li{
+	  margin-top: 2px;
+}
+.sub-logo .text{
+	padding:0 5px;
+	color:white;
+	background-color: #d3b167;
+	line-height:1;
+}
+/*海外地产*/
+.media.house .img-slider{
+	width: 63%;
+}
+.media.house .information{
+	margin-left:50%;
+}
+.media.house .img-slider .carousel-control.left{
+         left: auto;
+         right:0;
+         top: auto;
+         bottom:0;
+}
+.media.house .img-slider .carousel-control.right{
+            left: auto;
+	         right:-40px;
+	         top: auto;
+	         bottom:0;
+}
+.media.house .information{
+	width: 50%;
+	padding:5% 6% 8.2% 15%;
+	color: white;
+	background-color: #d3b167;
+	background-image: url(../img/tu2.jpg);
+	background-position: right bottom;
+	
+}
+.media.house .information .line{
+	margin:20px 0;
+	border-top:3px solid white;
+	
+}
+.information .sub-title{
+	margin-bottom:25px;
+	font-weight: normal;
+	font-size: 16px;
+}
+.media.house .button{
+	background-image:none;
+	background-color:transparent ;
+	border-color:white;
+	
+}
+
+/*海外专享  海外理财*/
+.media.business .img-slider,.media.finances .img-slider{
+	
+	border-top:1px solid transparent;
+}
+.media.business .img-slider .carousel,.media.finances .img-slider .carousel{
+	width:89.4%;
+}
+.media.business .img-slider .bg,.media.finances .img-slider .bg{
+	width:88.8%;
+	height:425px;
+	margin-top:6.3%;
+	margin-left:6.3%;
+	background-color: #fff;
+}
+.media.business .information,.media.finances .information{
+	width:38.3%;
+	padding:3% 2% 0% 6.8%;
+	background-color:transparent;
+}
+
+
+.media.business .carousel-control,.media.finances .carousel-control,.media.study .carousel-control{
+	  transform:rotate(90deg);
+	  transform-origin: center center;
+}
+/*海外留学*/
+.study{
+	width:93.3%;
+	border-top:1px solid transparent;
+}
+.media.study .img-slider{
+	width:56.8%;
+}
+.media.study .information{
+	width:78.4%;
+	margin-top:4.2%;
+	padding:4.8% 37% 0 3.5%;
+	background-image: url(../img/index-study-bg.png);
+}
+
+.media.study .information .button{
+	margin-bottom:18%;
+}
+/*每月活动*/
+.activity{
+	margin-bottom:15.6%;
+}
+.activity *{
+	box-sizing: border-box;
+}
+.activity .album{
+	width:100%;
+	margin-left:0;
+}
+.activity .album .album-window{
+	width:50%;
+	padding:0 5.4% 0 0;
+}
+.activity .album .album-window .text{
+	max-width:82.1%;
+	padding-left:25px;
+	font-family:arial;
+}
+.activity .album .album-window .title{
+	margin:12px 0;
+	font-size:18px;
+	text-align: left;
+	
+}
+.activity .description{
+	height: 80px;
+}
+.activity .album .album-window .text .button{
+	margin-top:25px;
+	
+}
+
+.activity .album .carousel-inner{
+	margin-right:17%;
+}
+.activity .album .carousel-control{
+    top:auto;
+    bottom: 192px;
+    right: 11.4%;
+    width: 40px;
+    height: 40px;
+    margin-top:-40px;
+    line-height: 40px;
+    background:#707070;
+    opacity: 1;
+
+}
+.activity .album .carousel-control:hover {
+    background: #535353;
+}
+.activity .album .carousel-control.left{
+         left: auto;
+         top: auto;
+        
+}
+.activity .album .carousel-control.right{
+             left: auto;
+	         margin-right: -40px;
+	         top: auto;
+	       
+}
+.activity .album .album-right{
+	width:50%;
+	padding:20.2% 2.5% 0 15px;
+	vertical-align: top;
+}
+
+.activity .carousel-indicators.album-list {
+    position:relative;
+    left:0;
+    top:0;
+    margin-top: 0;
+    font-size: 0;
+}
+.activity .carousel-indicators.album-list li{
+    width:32%;
+    margin:0;
+}
+.activity .carousel-indicators.album-list li.active{
+    width:32%;
+}
+.activity .carousel-indicators.album-list li.first{
+    margin-left:32%;
+}
+.activity .carousel-indicators.album-list li.last{
+    position:absolute;
+    top:0;
+    left:0;
+    font-size: 16px;
+    color: #535353;
+}
+.activity .carousel-indicators.album-list li.last .title{
+    margin-bottom: 0;
+    font-family: arial;
+    font-size: 26px;
+    text-align: left;
+}
+.activity .carousel-indicators.album-list li.last .line{
+   border-color: #535353;
+   margin: 15px 0;
+  
+}
+.activity .album-list li.active .square{
+	border:2px solid #D3B167;
+}
+.activity .album .bg{
+	position: absolute;
+	top: auto;
+	right: 2%;
+	bottom:0;
+	width:57% ;
+	height: 478px;
+	z-index: 0;
+	background-color: #fff;
+}
+.activity .bg .sub-logo{
+	left: auto;
+    right: -29px;
+    top: -87px;
+    text-align: right;
+}
+
+
+/*签证*/
+.visa {
+	position:relative;
+	padding-top:30px;
+}
+.visa *{
+	box-sizing: border-box;
+}
+.time-axis{
+	width: 27%;
+	float: left;
+}
+.date{
+	list-style: disc;
+	list-style-position: inside;
+	font-size:16px;
+	font-family: Arial;
+}
+
+#visa .carousel-indicators{
+	position:static;
+	width:100%;
+	margin-left:0;
+	text-align: left;
+	transform: translateY(0);
+	-ms-transform: translateY(0);
+	-webkit-transform: translateY(0);
+}
+#visa .carousel-indicators li{
+	      width: 100%;
+          height: auto;
+        text-indent: 0px; 
+        border:none; 
+        border-radius:0;
+        background-color: transparent; 
+}
+#visa .carousel-indicators li.active{
+	      width: 100%;
+          height: auto;
+        
+        border:none; 
+        border-radius:0;
+        background-color: transparent; 
+}
+
+
+
+.date li:after{
+	content:"";
+	display: block;
+	height:34px;
+	border-left:1px solid #000000;
+	
+}
+
+.date .active{
+	color:#d6ac64
+}
+.date li:hover{
+	cursor:pointer;
+	color:#d6ac64
+}
+.date li:after{
+	content:"";
+	display: block;
+	height:34px;
+	margin-left:2px ;
+	border-left:1px solid #dcdcdc;
+	
+}
+
+.date li.last:after{
+	height:0;
+}
+.visa .button{
+	margin-top: 19.6%;
+	
+}
+.tab .tabs a:focus{
+	text-decoration: none;
+}
+.visa-right{
+	position: relative;
+    z-index: 1;
+	width:73% ;
+	margin-left: 27%;
+}
+.tab-panel .content{
+	display:none;
+}
+.tab-panel .content.show{
+	display:block;
+}
+.album>.album-window{
+	position:relative;
+	z-index: 2;
+	width: 60.3%;
+	padding-right:5.8%;
+	display: table-cell;
+}
+.album>.album-window .content{
+	position:relative;
+	
+}
+.album .caption{
+	  position: absolute;
+	  top: 0;
+	  bottom:0;
+	  left: 0;
+	  right: 0;
+	  padding:4.6% 0 4.6% 6.5%;
+	  text-align: left;
+	  font-size:16px;
+	  color: white;
+	 font-weight:bold;
+	 font-family: arial;
+}
+.album .caption .year{
+	 font-size:60px;
+	 
+}
+.album .caption .day{
+	font-size:16px ;
+	 
+}
+.album .caption .line{
+	 margin: 12px 0;
+	 display: block;
+	 border-color: white;
+}
+.album .caption .to-details{
+	display: inline-block;
+    max-width: 160px;
+	color:white;
+	line-height: 23px;
+}
+.album .caption .button{
+	 position:absolute;
+	 left:6.5%;
+	 bottom:4.6%;
+	 font-weight: normal;
+	 border-color: white;
+	background-color:transparent;
+	background-image:none;
+	 
+}
+
+.album>.album-right{
+    position: relative;
+    z-index: 2;
+	padding-right: 2.5%;
+	display: table-cell;
+	vertical-align: top;
+    padding-top: 9.7%;
+	
+}
+.album .album-right .album-title{
+	margin-bottom:15px;
+	font-size: 18px;
+}
+.album .album-right .album-description{
+	line-height: 25px;
+	
+}
+.album-list{
+	position:static;
+	width:100%;
+	margin-left: 0; 
+	margin-top:16%;
+}
+.album-list li{
+	position:relative;
+	width:18%;
+	height:auto;
+	margin:0 0 20px 7%;
+	display: inline-block;
+	text-indent:0;
+	border-width:0;
+	border-radius:0;
+	background-color:#fff;
+}
+
+.album-list .first{
+	margin-left: 0%;
+}
+.album-list li.active{
+	width:18%;
+	height:auto;
+    background-color: #fff;
+}
+#visa .album .item{
+	
+}
+#visa .album-list {
+	position: absolute;
+	right:0;
+	bottom: 0;
+	width: 39.7%;
+	height: 29%;
+	margin-top: 0;
+	background-color: #f5f6fb;
+	
+}
+#visa .album-list li{
+	display: inline-block;
+	margin-bottom: 0;
+	margin-top: 7.3%;
+	cursor: pointer;
+}
+
+.square{
+	position: absolute;
+	top:0;
+	left:0;
+	bottom:0;
+	right:0;
+	border:2px solid transparent;
+}
+ .album-list .selected .square{
+	border:2px solid #D3B167;
+}
+.visa .bg{
+	position:absolute;
+	right:0;
+	top:0;
+	width:66.2%;
+	height: 73%;
+	background-color: #fff;
+	z-index: 0;
+}
+
+/*联系我们*/
+.contact{
+	padding:8.6% 0;
+	background-color: #fff;
+	
+}
+.contact *{
+	box-sizing: border-box;
+	
+}
+.contact .container{
+	width:1160px;
+	margin:0 auto;
+}
+.contact .title{
+	font-size:26px;
+	color:#535353
+}
+.contact .line{
+	margin:15px 0 40px;
+	border-color:#535353;
+}
+.contact .us-message{
+	width:50%;
+	padding-left:16px;
+	float:left;
+}
+.contact .us-message .company{
+	
+	font-size:18px;
+}
+
+.contact .us-message ul{
+	margin:30px 0;
+}
+.contact .us-message ul li{
+	line-height: 30px;
+}
+
+.contact .user-message {
+	width:50%;
+	float:right;
+}
+#share .xinlang,#share .qq{
+	display: inline-block;
+	width:44px;
+	height:44px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#share .xinlang{
+	background-image: url(../img/icon-xinlang.png);
+}
+#share .xinlang:hover{
+	background-image: url(../img/icon-xinlang-h.png);
+}
+#share .qq{
+	margin-left:16px;
+	background-image: url(../img/icon-qq.png);
+}
+#share .qq:hover{
+	
+	background-image: url(../img/icon-qq-h.png);
+}
+.user-message input{
+	display: block;
+	width:100%;
+	margin-bottom:16px;
+	border:none;
+	border-bottom:1px solid #535353;
+	line-height: 42px;
+	color:#535353;
+}
+.user-message input:focus{
+	outline: none;
+}
+
+.user-message input[name="content"]{
+	  border:none;
+}  
+.user-message .submit{
+	position:relative;
+	display: block;
+	width:100%;
+	height:70px;
+	margin-top:15.6%;
+	padding-left:38px;
+	text-align: left;
+	color:white;
+	border:none;
+	background-color: #d6ac64;
+	background-image:url(../img/home-footer-submit-bg.png);
+	background-repeat: no-repeat;
+    transition:padding-left .5s;
+	-ms-transition: padding-left .5s;
+	-webkit-transition: padding-left .5s;
+}
+.user-message .submit:hover{
+	padding-left:28px;
+	background-color: #6792d3;
+}
+.user-message .submit .caret{
+	position:absolute;
+	top:50%;
+	right:20%;
+	margin-top:-6px;
+	border-left-color:white;
+	border-left-width:8px;
+	border-top-width:6px;
+	border-bottom-width:6px;
+	transition:right .5s;
+	-ms-transition: right .5s;
+	-webkit-transition: right .5s;
+}
+.user-message .submit:hover .caret{
+	right:10%;
+	
+}
+
+
+/*媒体查询*/
+@media only screen and (max-width: 1180px) {
+	.main .container,.contact .container{
+		width:95%;
+	}
+	
+}
+
+@media only screen and (max-width: 1020px) {
+	#banner-carousel .carousel-control {
+		    width: 45px;
+    		height: 45px;
+    		line-height: 45px;
+    		
+		
+	}
+	
+	.banner .text {
+		width: 60%;
+		font-size: 38px;
+		color: white;
+	}
+	
+	.banner .text p.cn {
+		font-size: 18px;
+	}
+}
